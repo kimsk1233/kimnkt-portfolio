@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kim's Portfolio - Artistic, Cinematic, and Elegant. Explore my projects and get in touch.">
+    <title>Kim's Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #1a1a1a;
+            color: #dcdcdc;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #9b59b6;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: #9b59b6;
+        }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Container for layout */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        /* About Me Section */
+        #about {
+            text-align: center;
+        }
+        #about p {
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 1.2rem;
+        }
+
+        /* Projects Section */
+        #projects {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .project {
+            background-color: #292929;
+            padding: 20px;
+            margin: 10px;
+            width: 48%;
+            border-radius: 10px;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .project h3 {
+            margin-top: 10px;
+            color: #e0e0e0;
+        }
+
+        /* Contact Section */
+        #contact {
+            text-align: center;
+        }
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+        #contact input[type="submit"] {
+            background-color: #9b59b6;
+            cursor: pointer;
+        }
+        #contact input[type="submit"]:hover {
+            background-color: #8e44ad;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #111;
+            color: #9b59b6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Kim's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello, I'm Nguyen Kieu Thien Kim, but you can call me Kim. I am a passionate artist and photographer with a love for cinematic storytelling. My work revolves around capturing the essence of moments and translating them into visual art that speaks to the soul. Welcome to my portfolio, where I showcase some of my favorite projects. Feel free to explore and reach out if you'd like to collaborate.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>Description of your first project. Briefly explain what it's about and your role in it.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>Description of your second project. Highlight your artistic approach and key takeaways.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form action="mailto:kim@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kim's Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
